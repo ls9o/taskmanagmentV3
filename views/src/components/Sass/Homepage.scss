@@ -1,0 +1,80 @@
+
+.card {
+  background-color: rgb(245, 246, 250);
+  margin: auto;
+  border-radius: 0; 
+  border-top: none; 
+  border-left: none; 
+  border-right: none; 
+}
+
+.custom-border {
+border-bottom: 1px solid rgba(0, 0, 0, 0.176);
+}
+
+.btn-info {
+    position: relative;
+    margin-left: 1200px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+  
+  .border {
+    padding: 10px;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+  }
+
+
+.btn-icon i {
+    font-size: 2rem; /* ปรับขนาดไอคอน */
+}
+
+.text-Result {
+    text-align: center;
+}
+
+.icon-pad{
+  padding: 5px;
+}
+
+.p-paginator {
+  background-color: rgb(245, 246, 250);
+  border-radius: 8px;
+
+  .p-paginator-first{
+    background-color: rgb(245, 246, 250);
+  }
+  .p-paginator-prev{
+    background-color: rgb(245, 246, 250); 
+  }
+  .p-paginator-next{
+    background-color: rgb(245, 246, 250); 
+  }
+  .p-paginator-last{
+    background-color: rgb(245, 246, 250); 
+  }
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+  background-color: rgb(245, 246, 250);
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: rgb(30, 34, 170);
+  border-radius: 8px;
+  color: #fff;
+  cursor: default;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page:hover:not(.p-highlight) {
+  background-color: #989898; 
+  color: #ffffff;
+  border-radius: 8px;
+}

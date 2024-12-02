@@ -1,0 +1,48 @@
+  .container{
+  display: flex;
+  justify-content: center; /* จัดฟอร์มให้อยู่ตรงกลางแนวนอน */
+  align-items: center;  
+}
+
+.center {
+    margin-left:  15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    .info{
+      text-align: center;
+    }
+  }
+
+   .sub-inputbox {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-space {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust spacing between inputs as needed */
+  }
+  
+  label {
+    flex: 0 0 80px; /* Adjust the label width as needed */
+    margin-right: 10px;
+  }
+  
+  .full-width-input {
+    flex: 0;
+  }
+  
+  .button-right {
+    float: right;
+  }
+
+  .bg-secondary-custom {
+    background-color: var(--bs-tertiary-bg);
+    color: #000000; /* เพิ่มสีตัวอักษรเป็นสีขาว */
+  }
+
+  .text-center {
+    text-align: center;
+  }
