@@ -24,3 +24,5 @@ pip freeze > requirements.txt
 
 docker exec -it my_mysql mysql -u root -p
 docker exec -it mysql-container mysql -u root -p
+
+# สวัสดีครับ
